@@ -24,7 +24,7 @@ print(Fore.RESET + "? + " + str(sum(dealer[1:len(dealer)])) + "/21")
 drawCard(player); drawCard(player)
 print(Fore.BLACK + "\nPlayer's cards:", printCards(player))
 if sum(player) == 21:
-  print(Fore.RESET + str(sum(player)) + "/21")
+  print(Fore.GREEN + str(sum(player)) + "/21")
 else:
   print(Fore.RESET + str(sum(player)) + "/21")
 hos = input(Fore.RED + "Hit " + Fore.RESET + "or " + Fore.BLACK + "Stay?\n" + Fore.RESET)
